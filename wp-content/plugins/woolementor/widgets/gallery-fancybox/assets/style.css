@@ -1,0 +1,18 @@
+a.wl-gf-single-image {
+	outline: none;
+}
+.wl-gf-single-image img {
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+.fancybox-next span {
+	left: auto;
+	right: 20px;
+}
+.fancybox-prev span {
+	left: 20px;
+}
+.wl-gf-single-wrapper {
+	margin: 10px 0;
+}

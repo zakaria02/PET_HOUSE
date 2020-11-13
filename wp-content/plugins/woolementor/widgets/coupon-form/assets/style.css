@@ -1,0 +1,22 @@
+.wl-cf-apply-coupon {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+.wl-cf-apply-coupon-fields {
+	position: relative;
+}
+.wl-cf-apply-coupon-input.input-text {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #444;
+}
+.wl-cf-apply-coupon-button.button {
+	position: absolute;
+	right: 0;
+	padding: 10px;
+	border: 1px solid #444;
+	cursor: pointer;
+	bottom: 0;
+	top: 0;
+}

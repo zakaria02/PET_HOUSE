@@ -1,0 +1,26 @@
+<!-- 
+cmsmasters_package: Whiskers
+cmsmasters_version: 1.0.0
+-->
+<wpml-config>
+    <admin-texts>
+        <key name="cmsmasters_options_whiskers_header">
+            <key name="whiskers_header_top_line_short_info" />
+            <key name="whiskers_header_top_line_donations_but_text" />
+            <key name="whiskers_header_donations_but_text" />
+            <key name="whiskers_header_add_cont_cust_html" />
+        </key>
+		<key name="cmsmasters_options_whiskers_footer">
+            <key name="whiskers_footer_html" />
+            <key name="whiskers_footer_copyright" />
+        </key>
+		<key name="cmsmasters_options_whiskers_single_project">
+            <key name="whiskers_portfolio_project_details_title" />
+        </key>
+		<key name="cmsmasters_options_whiskers_single_profile">
+            <key name="whiskers_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

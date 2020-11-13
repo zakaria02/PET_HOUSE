@@ -1,0 +1,613 @@
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    background: none;
+    color: #e24545;
+}
+
+.promo-product1 a:focus .promo-image,
+.widget_accesspress_storemo:focus .caption,
+.widget.widget_accesspress_store_icon_text:focus {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.widget_accesspress_storemo:focus .caption .promo-btn {
+    -webkit-transition: all 0.8s ease 0s;
+    -o-transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s;
+}
+
+.main-navigation ul.menu > li a:focus {
+    color: #e24545;
+}
+
+.main-navigation ul.menu > li:focus::after {
+    border-top-color: #e24545;
+}
+
+.main-navigation ul.menu > li:focus-within > ul {
+    left: auto;
+    top: 56px;
+    opacity: 1;
+    display: block;
+    height: auto;
+}
+
+.main-navigation.align-right > ul > li:focus > ul {
+    left: auto;
+    right: 0;
+    opacity: 1;
+}
+
+.main-navigation ul ul li:focus-within > ul {
+    left: 100%;
+    top: 0;
+    opacity: 1;
+}
+
+.main-navigation.align-right ul ul li:focus > ul {
+    left: auto;
+    right: 170px;
+    top: 0;
+    opacity: 1;
+    padding-right: 5px;
+}
+
+.main-navigation ul ul li:focus > a {
+    background: rgb(181, 44, 39);
+    color: #FFFFFF;
+}
+
+.main-navigation ul ul li.menu-item-has-children:focus::after {
+    border-left-color: #B52C27;
+    right: -5px;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.main-navigation.align-right ul ul li.menu-item-has-children:focus::after {
+    border-right-color: #ffffff;
+    border-left-color: transparent;
+    left: -5px;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.boxed #site-navigation > .store-menu > ul > li:last-child:focus ul {
+    left: -99px;
+}
+
+boxed .#site-navigation > .store-menu > ul > li:last-child:focus ul:after {
+    left: 136px;
+}
+
+.product-remove a.remove.remove_from_wishlist:focus {
+    border-radius: 0px;
+    background: #e24545 !important;
+}
+
+#site-navigation > ul > li > a:focus {
+    color: #e24545;
+}
+
+.headertwo .home_navigation .inner_home #menu .main-navigation ul.menu > li:focus > ul {
+    top: 100%;
+    background: none;
+}
+
+.headertwo .home_navigation .inner_home #menu .main-navigation ul.menu > li:focus::after {
+    border-top-color: #e24545;
+}
+
+.search-icon a:focus {
+    color: #c97178;
+}
+
+.caption-read-more:focus {
+    background: #c97178;
+    border: 1px solid #c97178;
+    color: #FFF;
+}
+
+#main-slider .bx-pager-item a:focus,
+#message-slider .bx-controls .bx-pager-item a:focus,
+.project-block-wrap .bx-controls .bx-pager-item a:focus {
+    background: #c97178;
+}
+
+.service-title a:focus {
+    color: #109ba5;
+}
+
+.service-image:focus .image-wrap {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.service-image:focus .service-overlay {
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.service-overlay a:focus {
+    background: #109ba5;
+}
+
+.cta-banner-btn a:focus {
+    background: #c97178;
+    color: #ffffff;
+}
+
+.feature-icon:focus {
+    border: 3px solid #c97178;
+}
+
+.feature-title a:focus {
+    color: #c97178;
+}
+
+.feature-read-more:focus,
+.info-read-more:focus {
+    border-bottom: 1px dashed #0C8D96;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.blog-image:focus .blog-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.blog-overlay a:focus {
+    background: #109ba5;
+}
+
+.blog-date:focus:after {
+    box-shadow: 0 0 0 1px #27a4c8;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+    -moz-transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+    transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+}
+
+#blog .blog-title a:focus {
+    color: #c97178;
+}
+
+.blog-comments a:focus {
+    color: #c97178;
+}
+
+.project-block-wrap .slides:focus .project-img-wrap {
+    -webkit-transform: translateY(-60px);
+    -moz-transform: translateY(-60px);
+    transform: translateY(-60px);
+}
+
+.project-block-wrap .slides:focus .project-content-wrap {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: -webkit-transform 1s ease 0s;
+    -moz-transition: -moz-transform 1s ease 0s;
+    transition: transform 1s ease 0s;
+}
+
+.top-footer-block .es_button input:focus {
+    opacity: 0.8;
+}
+
+.footer-menu li a:focus {
+    color: #141414;
+}
+
+.copyright a:focus {
+    color: #109BA5;
+}
+
+.social-icon a:focus {
+    color: #c97178;
+}
+
+.tab-header li a:focus {
+    color: #141414;
+    position: relative;
+}
+
+.tags a:focus {
+    background: #0C8D96;
+}
+
+.widget a:focus,
+.widget a:focus:before {
+    color: #c97178;
+}
+
+.tagcloud a:focus {
+    background: #109ba5;
+    color: #ffffff;
+}
+
+#respond input#submit:focus {
+    background: #109ba5;
+}
+
+#reply-title small a:focus {
+    color: #141414;
+}
+
+.entry-thumbanil:focus a {
+    display: block;
+}
+
+.entry-thumbanil:focus img {
+    opacity: 0.8;
+}
+
+.cat-links a:focus,
+.tags-links a:focus {
+    color: #109BA5;
+}
+
+.edit-link a:focus {
+    background: #109ba5;
+}
+
+.newsletter-submit:focus {
+    background: #109BA5;
+}
+
+.page-template-page-home .new-prod-slide .slick-slide:focus .add_to_cart_button,
+.page-template-page-home .new-prod-slide .slick-slide:focus .added_to_cart,
+.page-template-page-home .feature-cat-product .slick-slide:focus .added_to_cart,
+.page-template-page-home .feature-cat-product .slick-slide:focus .add_to_cart_button {
+    bottom: 0px;
+    opacity: 1;
+    right: 0px;
+    visibility: visible;
+}
+
+.page-template-page-home .new-prod-slide .slick-slide:focus .added_to_cart,
+.page-template-page-home .feature-cat-product .slick-slide:focus .added_to_cart {
+    z-index: 999999;
+}
+
+.page-template .item-img:focus .add_to_cart_button,
+.page-template .item-img:focus .product_type_simple,
+.page-template .item-img:focus .product_type_external,
+.page-template .item-img:focus .added_to_cart {
+    opacity: 1;
+}
+
+.search-results .widget_shopping_cart .cart_list.product_list_widget li:focus {
+    border-bottom-color: #e24545 !important;
+    cursor: pointer !important;
+}
+
+.search-results article .entry-footer .comments-link a:focus:before {
+    color: #e24545;
+}
+.search-results article .entry-footer .comments-link a:focus,
+.search-results article .entry-footer .cat-links a:focus {
+    color: #e24545;
+}
+
+.new-prod-slide .slick-prev:focus {
+    background: url("images/mini-prev-arrow.png") no-repeat scroll center center;
+    background-size: 100%;
+}
+
+.banner-btn .btn:focus {
+    background-color: #FFF !important;
+    border: 1px solid #FFF !important;
+    color: #c97178 !important;
+}
+
+.cta-video-btn.bttn:focus {
+    color: #FFF !important;
+}
+
+.woocommerce ul.products li.product:focus h3 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.woocommerce ul.products li:focus .price-cart .button {
+    left: 0px;
+}
+
+.woocommerce ul.products li.product:focus a.item-wishlist {
+    left: 0px;
+    opacity: 1;
+}
+
+.woocommerce ul.products li.product .price-cart .gridlist-buttonwrap a.button:focus,
+.woocommerce ul.products li.product .price-cart .added_to_cart:focus {
+    color: #e24545;
+    background: #ffffff;
+    opacity: 1;
+    border: 2px solid #e24545;
+}
+
+.woocommerce ul.products li.product .price-cart .gridlist-buttonwrap a.button:focus:before {
+    color: #e24545;
+}
+
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:focus,
+.woocommerce button.button:focus,
+.woocommerce input.button:focus,
+.woocommerce ul.products li.product .price-cart .add_to_cart_button:focus {
+    color: #C05860;
+    background: #FFF;
+}
+
+.woocommerce #respond input#submit.alt:focus,
+.woocommerce a.button.alt:focus,
+.woocommerce button.button.alt:focus,
+.woocommerce input.button.alt:focus {
+    background-color: #C05860;
+}
+
+div.view-cart:focus .sub-menu {
+    display: inline-block;
+    width: 320px;
+    top: 30px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    max-height: 275px;
+    list-style: none;
+    background-color: rgba(49, 49, 49, 0.56);
+}
+
+.headertwo .headertwo-wrap a:focus {
+    color: #e24747;
+}
+
+#site-navigation li a:focus,
+.headertwo .home_navigation .inner_home #menu #site-navigation .store-menu > ul > li:focus > a {
+    color: #e24545;
+}
+
+.headertwo .home_navigation .inner_home #menu #site-navigation ul ul li a:focus {
+    color: #fff;
+}
+
+.promo-widget-wrap:focus{
+    -ms-transform: translateY(-10px); /* IE 9 */
+    -webkit-transform: translateY(-10px); /* Safari */
+    transform: translateY(-10px);
+}
+
+.promo-product1 a:focus p:after {
+    color: #867A7A;
+}
+
+.headertwo .headertwo-wrap .search-form button.searchsubmit:focus {
+    background: #e24545;
+    color: #fff;
+}
+
+.woocommerce ul.products.grid li.product .price-cart .gridlist-buttonwrap a.button:focus:before,
+ .woocommerce.single.single-product .entry-summary form button.button:focus:before {
+    color: #e24545 !important;
+}
+button.single_add_to_cart_button.button.alt:focus {
+    color: #e24545 !important;
+    background-color: #fff!important;
+}
+
+.woocommerce.single.single-product .entry-summary form button.button:focus {
+    background: #fff;
+}
+
+.woocommerce.single.single-product .entry-summary form button.button:focus:before {
+    color: #e24545;
+}
+
+.woocommerce.single.single-product .entry-summary .add_to_wishlist:focus {
+    background: #ffffff !important;
+    color: #e24545;
+}
+
+.woocommerce.single.single-product .entry-summary .show a:focus{
+    border: 2px solid #e24545;
+    background: #fff;
+    color: #e24545;
+}
+
+.item-wishlist:focus{
+    background: #e24545;
+    color: #ffffff;
+}
+
+.feature-prod-wrap a:focus{
+    color: #fff !important;
+}
+.new-prod-slide .slick-slide .item-wishlist:focus {
+    background: #e24545;
+    color: #ffffff;
+}
+
+#ap-cta-video .widget_accesspress_cta_simple .cta-banner .banner-btn a:focus {
+    border: none !important;
+    background: transparent !important;
+    color: #ce4444;
+}
+
+#ap-cta-video .cta-video .cta-wrap-right .bttn.cta-video-btn:focus {
+    background: rgba(206, 68, 68, 0.29);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cat-list-wrap .widget_accesspress_storemo .caption .promo-btn:focus {
+    background: #ffffff;
+    color: #ce4444;
+}
+
+#top-footer .cta-banner .banner-btn a:focus {
+    border: none !important;
+    color: #222222 !important;
+}
+
+.top-footer-block .widget_pages a:focus {
+    color: #e24545;
+}
+
+#secondary.sidebar ul li:focus>a,
+#secondary.sidebar ul li:focus {
+    color: #e24545;
+    /*border-color: #e24545;*/
+}
+#secondary.sidebar ul li a span:focus {
+    color: #e24545;
+}
+
+.woocommerce .widget_price_filter .price_slider_amount button:focus {
+    opacity: 1;
+    background: #FFFFFF !important;
+    color: #E24545;
+    border: 2px solid #e24545;
+}
+
+.woocommerce .widget_products ul li:focus {
+    /*border-bottom: 1px solid #e24545 !important;*/
+    cursor: pointer;
+}
+
+.gridlist-toggle a#grid:focus {
+    background-image: url("images/active.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #e24545;
+    margin: 0px 5px;
+}
+
+.content-area article .entry-content a.read-more:focus {
+    border: 2px solid #e24545;
+    background: #ffffff;
+    color: #e24545;
+}
+
+#respond input#submit:focus {
+    background: #ffffff;
+    color: #e24545;
+    border: 2px solid #e24545;
+}
+
+.woocommerce #content table.wishlist_table.cart a.remove:focus {
+    background: #e24545;
+    border-radius: 0px;
+}
+
+#ak-top:focus {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#secondary.secondary-left a:focus,
+#secondary.secondary-right a:focus {
+    text-decoration: none;
+}
+
+.accesspress-menu-bar .top-nav li:focus .sub-menu {
+    opacity: 1;
+    left: auto;
+    top: auto;
+}
+.accesspress-menu-bar .top-nav li:focus .sub-menu li > ul {
+    opacity: 0;
+    left: 168px;
+    top: 0;
+}
+.accesspress-menu-bar .top-nav li:focus .sub-menu li:focus > ul {
+    opacity: 1;
+}
+.accesspress-menu-bar .top-nav li:focus .widget-sub-menu {
+    opacity: 1;
+    left: -579px;
+    top: 60px;
+    background: #fff;
+    border-top: 5px solid #E24545;
+}
+.accesspress-menu-bar .top-nav li:focus .widget-sub-menu li {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.accesspress-menu-bar .top-nav li:focus .widget-sub-menu li > .promo-widget-wrap a:focus {
+    color: #000 !important;
+}
+.accesspress-menu-bar .top-nav li:focus .widget-sub-menu li .product_list_widget {
+    left: auto;
+    top: auto;
+    opacity: 1;
+}
+.accesspress-menu-bar .top-nav li:focus .widget-sub-menu li .product_list_widget > li {
+    width: 100%;
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 0;
+}
+.accesspress-menu-bar .top-nav li:focus .widget-sub-menu li .product_list_widget > li > a {
+    display: inline-block !important;
+    margin-bottom: 5px;
+    margin-left: 0 !important;
+}
+
+.btn promo-link-btn:focus {
+    background: #ffffff;
+    color: #ce4444;
+}
+
+.style_one .promo-link-btn:focus {
+    border: 1px solid #ce4444;
+    background: #fff;
+    color: #ce4444;
+}
+
+.style_two .caption .promo-link-btn:focus {
+    background: #fff;
+    color: #ce4444;
+    border: 1px solid #ce4444;
+}
+
+#site-navigation > .store-menu > ul li:last-child:focus ul ul{
+    left: auto;
+    right: 100%
+}
+
+.apwidget_title .widget_search button:focus {
+    color: #e24545;
+}
+
+.apwidget_title .widget.widget_text.elp-widget input[type="button"]:focus {
+    background: #ffffff none repeat scroll 0 0;
+    border-color: #e24545;
+    color: #e24545;
+}
+
+nav.woocommerce-MyAccount-navigation ul li:focus {
+    background: none;
+}
+nav.woocommerce-MyAccount-navigation ul li:focus a {
+    color: #e24545;
+}

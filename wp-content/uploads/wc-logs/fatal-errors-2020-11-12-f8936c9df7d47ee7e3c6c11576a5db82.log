@@ -1,0 +1,27 @@
+2020-11-12T12:22:07+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\animal\wp-content\plugins\woolementor\widgets\product-categories\product-categories.php:393
+Stack trace:
+#0 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\base\controls-stack.php(1894): codexpert\Woolementor\Product_Categories->render()
+#1 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\base\widget-base.php(530): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\animal\wp-content\plugins\elementor\core\base\document.php(230): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\animal\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\ in C:\xampp\htdocs\animal\wp-content\plugins\woolementor\widgets\product-categories\product-categories.php on line 393
+
+2020-11-12T12:22:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\animal\wp-content\plugins\woolementor\widgets\product-categories\product-categories.php:393
+Stack trace:
+#0 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\base\controls-stack.php(1894): codexpert\Woolementor\Product_Categories->render()
+#1 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\base\widget-base.php(530): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\animal\wp-content\plugins\elementor\core\base\document.php(230): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\animal\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\ in C:\xampp\htdocs\animal\wp-content\plugins\woolementor\widgets\product-categories\product-categories.php on line 393
+
+2020-11-12T12:24:56+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\animal\wp-content\plugins\woolementor\widgets\product-categories\product-categories.php:393
+Stack trace:
+#0 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\base\controls-stack.php(1894): codexpert\Woolementor\Product_Categories->render()
+#1 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\base\widget-base.php(530): Elementor\Controls_Stack->render_by_mode()
+#2 C:\xampp\htdocs\animal\wp-content\plugins\elementor\core\base\document.php(230): Elementor\Widget_Base->render_content()
+#3 C:\xampp\htdocs\animal\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\animal\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\ in C:\xampp\htdocs\animal\wp-content\plugins\woolementor\widgets\product-categories\product-categories.php on line 393
+

@@ -1,0 +1,93 @@
+.wl table.shop_table_responsive tbody tr td,
+.wl table.shop_table_responsive tbody tr th{
+	background: transparent;
+}
+.wl .wl-co-cart-overview-area {
+	background: transparent;
+	color: #636363;
+	padding: 5px 25px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 5px;
+}
+.wl .wl-co-overview-title {
+	border-bottom: 1px solid #5479FC;
+}
+.wl .wl-co-cart-overview-area .cart_totals h2 {
+	text-transform: uppercase;
+	font-family: "Roboto", Sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 10px 0;
+	display: none;
+}
+.wl .wl-co-cart-overview-area .shop_table.shop_table_responsive {
+	width: 100%;
+}
+.wl .wl-co-cart-overview-area table tr {
+}
+.wl .wl-co-cart-overview-area table tr.cart-subtotal th {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Roboto", Sans-serif;
+	font-size: 12px;
+	padding: 15px 0;
+	text-align: left;
+}
+.wl .wl-co-cart-overview-area table tr td {
+	text-align: right;
+}
+.wl .wl-co-cart-overview-area table tr.cart-subtotal td {
+	font-family: "Roboto", Sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 15px 0;
+	text-align: right;
+}
+.wl .wl-co-cart-overview-area table tr.order-total th {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Roboto", Sans-serif;
+	font-size: 12px;
+	padding: 15px 0;
+	text-align: left;
+}
+.wl .wl-co-cart-overview-area table tr.order-total td {
+	font-family: "Roboto", Sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 15px 0;
+	text-align: right;
+}
+.wl .wl-co-cart-overview-area .wc-proceed-to-checkout {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.wl .wc-proceed-to-checkout a.checkout-button {
+	padding: 10px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "Roboto", Sans-serif;
+	color: #fff;
+	background: #E9345F;
+	cursor: pointer;
+	transition: .4s;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+.wl .wc-proceed-to-checkout a.checkout-button:hover {
+	background: #CC3C5E;
+}
+.woocommerce-page .wl-co-cart-overview-area .cart_totals {
+	width: 100%;
+}
+.wl .cart-collaterals .cart_totals, .wl .cart-collaterals .shipping_calculator {
+	width: 100%;
+}
+.wl .wl-co-cart-overview-area table td, .wl .wl-co-cart-overview-area table th {
+	border: none;
+}

@@ -1,0 +1,162 @@
+.wl-ptb-pricing-heading {
+	font-family: intermedium;
+	font-size: 38px;
+	text-align: center;
+	margin: 19px 0;
+}
+.wl-ptb-pricing-table-area {
+	display: flex;
+	justify-content: center;
+}
+.wl-ptb-single-pricing {
+	background-color: transparent;
+	text-align: center;
+	padding: 45px;
+	position: relative;
+	clear: both;
+	padding-top: 0;
+}
+.wl-ptb-pricing-box {
+	background: transparent;
+	padding: 20px;
+	border-bottom: 1px solid #e8e8e8;
+	margin-bottom: 20px;
+}
+.wl-ptb-pricing-name {
+	color: #212121;
+	font-size: 30px;
+	font-family: interregular;
+	line-height: 1;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.wl-ptb-pricing-price {
+	font-family: intermedium;
+	font-size: 20px;
+	line-height: 1;
+	color: #212121;
+}
+
+.wl-ptb-pricing-price sup {
+	font-family: interregular;
+	font-size: 15px;
+}
+.wl-ptb-pricing-list {
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+}
+.wl-ptb-pricing-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.wl-ptb-pricing-list ul li {
+	font-size: 18px;
+	font-family: interregular;
+	color: #212121;
+	display: block;
+	margin-bottom: 15px;
+}
+.wl-ptb-pricing-list ul li i {
+	padding-right: 5px;
+	color: #5A2ED2;
+}
+.wl-ptb-single-pricing a.price-btn {
+	font-family: 'interregular';
+	font-size: 14px;
+	color: #fff;
+	background: #E2498A;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 0;
+	border-radius: 25px;
+	height: 34px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	padding: 0 30px;
+	outline: 0;
+	width: 160px;
+	line-height: 34px;
+	transition: .4s;
+	z-index: 999;
+}
+.wl-ptb-single-pricing {
+	flex-grow: 1;
+	flex-basis: 0;
+	background: transparent;
+	border: 1px solid #e8e8e8;
+}
+.wl-ptb-pricing-period {
+	font-size: 13px;
+}
+.wl-ptb-featured-badge-text {
+	width: 107px;
+	background: #E2498A;
+	position: absolute;
+	top: 20px;
+	left: -22px;
+	text-align: center;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	font-size: 12px;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	font-family: "Roboto", Sans-serif;
+	z-index: 999;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+	.wl-ptb-pricing-table-area {
+		flex-direction: column;
+	}
+	.wl-ptb-single-pricing {
+		padding: 40px;
+		padding-top: 0;
+	}
+}
+
+/* Super Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+	.wl-ptb-single-pricing {
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+	.wl-ptb-pricing-table-area {
+		flex-direction: row;
+	}
+	.wl-ptb-single-pricing {
+		padding: 25px;
+		padding-top: 0;
+	}
+	.wl-ptb-pricing-name {
+		margin-top: 15px;
+	}
+	.wl-ptb-pricing-list ul li {
+		font-size: 12px;
+	}
+	.pt-featured {
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+	.wl-ptb-single-pricing {
+		padding: 15px 20px;
+	}
+	.wl-ptb-pricing-list ul li {
+		font-size: 15px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 1024px) {
+	.wl-ptb-single-pricing {
+	}
+}

@@ -1,0 +1,19 @@
+.wl-atc-product-cart {
+	margin: 10px 0;
+}
+.wl-atc-button {
+	background: #E9345F;
+	color: #fff;
+	padding: 15px 40px;
+	border: 2px solid #E9345F;
+	outline: none;
+	transition: .4s;
+	border-radius: 50px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+	font-size: 14px;
+}
+.wl-atc-button:hover {
+	background: #fff;
+	color: #BF2A4D;
+	border: 2px solid #E9345F;
+}

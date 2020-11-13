@@ -1,0 +1,2 @@
+2020-11-13T09:00:39+00:00 CRITICAL Out of memory (allocated 85983232) (tried to allocate 65536 bytes) in C:\xampp\htdocs\animal\wp-content\plugins\contact-form-7\modules\count.php on line 19
+
